@@ -1,0 +1,5 @@
+Player#action is called once per turn, and is provided
+the game history and current state
+player#action must return :fold, :call, :check, :raise
+
+Game takes care of entire game, with multiple rounds
